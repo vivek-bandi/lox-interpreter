@@ -133,7 +133,6 @@ class Scanner {
         if (type == null) type = IDENTIFIER;
         addToken(type);
     }
-
     private void number() {
         while (isDigit(peek())) advance();
 
